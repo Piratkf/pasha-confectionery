@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Премиальная кондитерская Паши — торт, пирожные, капкейки, десерты на заказ с доставкой."
+    />
+    <title>Паша — Премиальная кондитерская</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="header">
+        <div class="container header__inner">
+          <div class="brand">
+            <span class="brand__mark">P</span>
+            <div>
+              <p class="brand__name">Паша</p>
+              <span class="brand__tag">Премиальная кондитерская</span>
+            </div>
+          </div>
+
+          <nav class="nav" aria-label="Основная навигация">
+            <a href="#about">О нас</a>
+            <a href="#menu">Меню</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contact">Контакты</a>
+          </nav>
+
+          <a class="header__phone" href="tel:+79885772728">+7 (988) 577-27-28</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero__inner">
+            <div class="hero__content">
+              <p class="eyebrow">Легенда вкуса в каждом кусочке</p>
+              <h1>Сладости, которые хочется не просто есть — а хранить в памяти.</h1>
+              <p class="hero__text">
+                Роскошные торты, нежные десерты и подарочные наборы, созданные с любовью,
+                эстетикой и настоящим мастерством.
+              </p>
+
+              <div class="hero__actions">
+                <a class="button button--primary" href="#menu">Смотреть меню</a>
+                <a class="button button--secondary" href="tel:+79885772728">Заказать сейчас</a>
+              </div>
+
+              <div class="hero__stats">
+                <div>
+                  <strong>150+</strong>
+                  <span>рецептов</span>
+                </div>
+                <div>
+                  <strong>24/7</strong>
+                  <span>поддержка</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>средний рейтинг</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__visual" aria-label="Витрина десертов">
+              <div class="visual-card visual-card--main">
+                <img
+                  src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80"
+                  alt="Премиальный тортик"
+                />
+                <div class="visual-card__caption">
+                  <span>Премиальный набор</span>
+                  <strong>Шоколадный рай</strong>
+                </div>
+              </div>
+              <div class="visual-badge visual-badge--top">Fresh • handmade</div>
+              <div class="visual-badge visual-badge--bottom">С доставкой до 45 мин</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="container features__grid">
+            <article class="feature-item">
+              <span class="feature-item__icon">✦</span>
+              <h3>Натуральные ингредиенты</h3>
+              <p>Только качественные продукты, сливки, шоколад и свежие ягоды.</p>
+            </article>
+            <article class="feature-item">
+              <span class="feature-item__icon">✦</span>
+              <h3>Завораживающий вкус</h3>
+              <p>Каждый десерт — настоящее произведение искусства с идеальным балансом вкуса.</p>
+            </article>
+            <article class="feature-item">
+              <span class="feature-item__icon">✦</span>
+              <h3>К праздничному настроению</h3>
+              <p>Доставка к торжествам, романтическим ужинам и домашним вечерам.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+          <div class="container about__inner">
+            <div class="about__image">
+              <img
+                src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=900&q=80"
+                alt="Кондитер за работой"
+              />
+            </div>
+            <div class="about__content">
+              <p class="eyebrow">О бренде</p>
+              <h2>Премиальная сладость с душой</h2>
+              <p>
+                В нашей кондитерской всё начинается с вдохновения и заканчивается наслаждением.
+                Мы создаём десерты, которые не только радуют глаз, но и наполняют вечер теплом,
+                счастьем и особенными эмоциями.
+              </p>
+              <p>
+                От свадебных тортов до уютных капкейков на каждый день — каждая работа
+                выполняется бережно, с вниманием к деталям и вашим пожеланиям.
+              </p>
+              <ul class="about__list">
+                <li>Индивидуальные заказы</li>
+                <li>Подарочные наборы</li>
+                <li>Доставка и упаковка</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="menu" id="menu">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Меню</p>
+              <h2>Самые любимые десерты</h2>
+            </div>
+
+            <div class="filter" aria-label="Фильтр десертов">
+              <button class="filter__button is-active" data-filter="all">Все</button>
+              <button class="filter__button" data-filter="cakes">Торты</button>
+              <button class="filter__button" data-filter="cupcakes">Капкейки</button>
+              <button class="filter__button" data-filter="pastries">Пирожные</button>
+              <button class="filter__button" data-filter="sets">Наборы</button>
+            </div>
+
+            <div class="menu-grid">
+              <article class="menu-item" data-category="cakes">
+                <img
+                  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80"
+                  alt="Торт Красавица"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Красавица</h3>
+                    <span>1 990 ₽</span>
+                  </div>
+                  <p>Нежный ванильный бисквит с кремом, ягодами и хрустящей карамелью.</p>
+                  <button class="mini-button" data-order="Красавица">Заказать</button>
+                </div>
+              </article>
+
+              <article class="menu-item" data-category="cupcakes">
+                <img
+                  src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=80"
+                  alt="Капкейки сливочные"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Сливочный рай</h3>
+                    <span>790 ₽</span>
+                  </div>
+                  <p>Капкейки с насыщенным кремом, ванилью и шоколадной крошкой.</p>
+                  <button class="mini-button" data-order="Сливочный рай">Заказать</button>
+                </div>
+              </article>
+
+              <article class="menu-item" data-category="pastries">
+                <img
+                  src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80"
+                  alt="Пирожное средиземноморское"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Лесная ягода</h3>
+                    <span>650 ₽</span>
+                  </div>
+                  <p>Пирожное с ягодным муссом и воздушным кремом из белого шоколада.</p>
+                  <button class="mini-button" data-order="Лесная ягода">Заказать</button>
+                </div>
+              </article>
+
+              <article class="menu-item" data-category="sets">
+                <img
+                  src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80"
+                  alt="Подарочный набор десертов"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Подарочный набор</h3>
+                    <span>2 490 ₽</span>
+                  </div>
+                  <p>Комбо из шоколадных десертов, мини-тортиков и ягодных конфет.</p>
+                  <button class="mini-button" data-order="Подарочный набор">Заказать</button>
+                </div>
+              </article>
+
+              <article class="menu-item" data-category="cakes">
+                <img
+                  src="https://images.unsplash.com/photo-1559622450-daed28e8cfd8?auto=format&fit=crop&w=900&q=80"
+                  alt="Шоколадный торт"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Шоколадный сон</h3>
+                    <span>2 180 ₽</span>
+                  </div>
+                  <p>Глубокий шоколадный вкус, сливочный мусс и хрустящее покрытие.</p>
+                  <button class="mini-button" data-order="Шоколадный сон">Заказать</button>
+                </div>
+              </article>
+
+              <article class="menu-item" data-category="pastries">
+                <img
+                  src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80"
+                  alt="Праздничное пирожное"
+                />
+                <div class="menu-item__content">
+                  <div class="menu-item__topline">
+                    <h3>Праздничный вкус</h3>
+                    <span>720 ₽</span>
+                  </div>
+                  <p>Нежные слои бисквита с солёной карамелью и лёгким кремом.</p>
+                  <button class="mini-button" data-order="Праздничный вкус">Заказать</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Отзывы</p>
+              <h2>Люди влюбляются в вкус с первого кусочка</h2>
+            </div>
+
+            <div class="reviews__grid">
+              <article class="review-card">
+                <div class="review-card__head">
+                  <span>Алина</span>
+                  <span>★★★★★</span>
+                </div>
+                <p>
+                  "Торт на день рождения был просто шедевральный: вкус, оформление и подача на
+                  высоте. Друзья не могли оторваться."
+                </p>
+              </article>
+              <article class="review-card">
+                <div class="review-card__head">
+                  <span>Дмитрий</span>
+                  <span>★★★★★</span>
+                </div>
+                <p>
+                  "Очень приятно, что всё сделано с душой. Капкейки были свежие, нежные и совсем
+                  как в рекламе, но лучше."
+                </p>
+              </article>
+              <article class="review-card">
+                <div class="review-card__head">
+                  <span>Марина</span>
+                  <span>★★★★★</span>
+                </div>
+                <p>
+                  "Подарочный набор стал идеальным сюрпризом. Всё красиво упаковано, и вкус просто
+                  безупречный."
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta">
+          <div class="container cta__inner">
+            <div>
+              <p class="eyebrow">Праздник начинается с десерта</p>
+              <h2>Давайте сделаем ваш вечер ещё вкуснее</h2>
+            </div>
+            <div class="cta__actions">
+              <a class="button button--primary" href="tel:+79885772728">Позвонить сейчас</a>
+              <a class="button button--secondary" href="https://wa.me/79885772728" target="_blank" rel="noreferrer">Написать в WhatsApp</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div class="container footer__inner">
+          <div>
+            <div class="brand brand--footer">
+              <span class="brand__mark">P</span>
+              <div>
+                <p class="brand__name">Паша</p>
+                <span class="brand__tag">Премиальная кондитерская</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__links">
+            <a href="tel:+79885772728">+7 (988) 577-27-28</a>
+            <a href="https://wa.me/79885772728" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="#menu">Меню</a>
+          </div>
+        </div>
+        <div class="container footer__bottom">
+          <span>© <span id="year"></span> Паша — премиальная кондитерская</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
